@@ -6,6 +6,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { ThemeProvider } from '@/components/theme-provider';
 import { AuthProvider } from '@/contexts/auth-context';
+import { NavigationLoading } from '@/components/navigation-loading';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -52,6 +53,7 @@ export default async function LocaleLayout({
         <ThemeProvider>
           <NextIntlClientProvider>
             <AuthProvider>
+              <NavigationLoading />
               {children}
             </AuthProvider>
           </NextIntlClientProvider>

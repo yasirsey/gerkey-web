@@ -9,17 +9,17 @@ import { LanguageSwitcher } from "@/components/language-switcher";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { Link } from "@/i18n/navigation";
 
-export function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const t = useTranslations('Navigation');
+const navigation = [
+  { name: 'Hakkımızda', href: '#about' },
+  { name: 'Hizmetler', href: '#services' },
+  { name: 'Referanslar', href: '#testimonials' },
+  { name: 'SSS', href: '#faq' },
+  { name: 'İletişim', href: '#contact' },
+];
 
-  const navigation = [
-    { name: t('about'), href: "#about" },
-    { name: t('services'), href: "#services" },
-    { name: t('successStories'), href: "#success-stories" },
-    { name: t('faq'), href: "#faq" },
-    { name: t('contact'), href: "#contact" },
-  ];
+export function Header() {
+  const t = useTranslations('Header');
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className="fixed top-0 w-full bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800 z-50">

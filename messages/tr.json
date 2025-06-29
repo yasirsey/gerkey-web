@@ -19,6 +19,10 @@
       "register": "Kayıt Ol",
       "freeConsultation": "Ücretsiz Danışmanlık"
   },
+  "Header": {
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol"
+  },
   "Hero": {
     "badge": "Yeni Fırsatlar",
     "title": "Almanya'da Hayalinizdeki Kariyere Ulaşın",

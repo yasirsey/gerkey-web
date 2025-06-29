@@ -19,6 +19,10 @@
       "register": "Register",
       "freeConsultation": "Free Consultation"
   },
+  "Header": {
+    "login": "Login",
+    "register": "Register"
+  },
   "Hero": {
     "badge": "New Opportunities",
     "title": "Reach Your Dream Career in Germany",

@@ -1,5 +1,5 @@
 import { PageLoading } from "@/components/ui/loading-spinner"
 
-export default function Loading() {
+export default function LocaleLoading() {
   return <PageLoading message="Sayfa yükleniyor..." />
 } 
