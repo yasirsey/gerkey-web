@@ -53,20 +53,32 @@ export function AuthProvider({ children }: AuthProviderProps) {
     return accessToken && refreshToken ? { accessToken, refreshToken } : null;
   };
 
-  // Token'ları localStorage'a kaydet
+  // Token'ları localStorage ve cookie'lere kaydet
   const storeTokens = (authResponse: AuthResponse) => {
     if (typeof window === 'undefined') return;
+    
+    // localStorage'a kaydet
     localStorage.setItem('accessToken', authResponse.accessToken);
     localStorage.setItem('refreshToken', authResponse.refreshToken);
     localStorage.setItem('user', JSON.stringify(authResponse.user));
+    
+    // Cookie'lere de kaydet (middleware için)
+    document.cookie = `accessToken=${authResponse.accessToken}; path=/; max-age=86400; SameSite=Strict; Secure`;
+    document.cookie = `refreshToken=${authResponse.refreshToken}; path=/; max-age=604800; SameSite=Strict; Secure`;
   };
 
   // Token'ları temizle
   const clearTokens = () => {
     if (typeof window === 'undefined') return;
+    
+    // localStorage'dan temizle
     localStorage.removeItem('accessToken');
     localStorage.removeItem('refreshToken');
     localStorage.removeItem('user');
+    
+    // Cookie'leri de temizle
+    document.cookie = 'accessToken=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'refreshToken=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
   };
 
   const clearError = () => setError(null);
@@ -81,7 +93,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
       storeTokens(response);
       setUser(response.user);
       
-      router.push('/');
+      router.push('/onboarding');
     } catch (err) {
       const apiError = err as ApiError;
       setError(apiError.message || 'Giriş yapılırken bir hata oluştu');
@@ -101,7 +113,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
       storeTokens(response);
       setUser(response.user);
       
-      router.push('/');
+      router.push('/onboarding');
     } catch (err) {
       const apiError = err as ApiError;
       setError(apiError.message || 'Kayıt olurken bir hata oluştu');

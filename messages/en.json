@@ -14,10 +14,14 @@
     "services": "Services",
     "successStories": "Success Stories",
     "faq": "FAQ",
-          "contact": "Contact",
-      "login": "Login",
-      "register": "Register",
-      "freeConsultation": "Free Consultation"
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "freeConsultation": "Free Consultation",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
   },
   "Header": {
     "login": "Login",
@@ -128,10 +132,35 @@
     "send": "Send",
     "required": "All fields are required"
   },
+  "Onboarding": {
+    "welcomeBadge": "Welcome!",
+    "title": "Welcome to GerKey!",
+    "subtitle": "You've taken the first step on your journey to your career in Germany. Now let's reach your goals with our services specially prepared for you.",
+    "step1Title": "Create Profile",
+    "step1Description": "Complete your personal information and let us create your personalized service package.",
+    "step2Title": "Expert Consultation",
+    "step2Description": "Meet with our expert consultants and determine your roadmap.",
+    "step3Title": "Reach Goals",
+    "step3Description": "Start your career in Germany according to your determined plan.",
+    "getStarted": "Let's Get Started",
+    "helpText": "If you have any questions, our 24/7 support team is here for you!"
+  },
   "Footer": {
-    "copyright": "© 2025 GerKey. All rights reserved.",
+    "copyright": "© {year} GerKey. All rights reserved.",
     "poweredBy": "Powered by Mortowa Limited",
-    "tagline": "Professional support on your way to your career in Germany"
+    "tagline": "Professional support on your way to your career in Germany",
+    "description": "As GerKey, we provide comprehensive support for you to reach your career goals in Germany. We are with you with our expert team in diploma equivalency, visa processes, language training and job search.",
+    "quickLinks": "Quick Links",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "gdpr": "GDPR",
+    "support": "Support"
   },
   "Auth": {
     "login": {

@@ -5,10 +5,14 @@
     "services": "Dienstleistungen",
     "successStories": "Erfolgsgeschichten",
     "faq": "FAQ",
-          "contact": "Kontakt",
-      "login": "Anmelden",
-      "register": "Registrieren",
-      "freeConsultation": "Kostenlose Beratung"
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "freeConsultation": "Kostenlose Beratung",
+    "dashboard": "Dashboard",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "logout": "Abmelden"
   },
   "Header": {
     "login": "Anmelden",
@@ -119,10 +123,35 @@
     "send": "Senden",
     "required": "Alle Felder sind erforderlich"
   },
+  "Onboarding": {
+    "welcomeBadge": "Willkommen!",
+    "title": "Willkommen bei GerKey!",
+    "subtitle": "Sie haben den ersten Schritt auf Ihrer Reise zu Ihrer Karriere in Deutschland gemacht. Lassen Sie uns nun Ihre Ziele mit unseren speziell für Sie vorbereiteten Dienstleistungen erreichen.",
+    "step1Title": "Profil erstellen",
+    "step1Description": "Vervollständigen Sie Ihre persönlichen Informationen und lassen Sie uns Ihr personalisiertes Servicepaket erstellen.",
+    "step2Title": "Expertenberatung",
+    "step2Description": "Treffen Sie sich mit unseren Expertenberatern und bestimmen Sie Ihre Roadmap.",
+    "step3Title": "Ziele erreichen",
+    "step3Description": "Starten Sie Ihre Karriere in Deutschland gemäß Ihrem festgelegten Plan.",
+    "getStarted": "Lassen Sie uns anfangen",
+    "helpText": "Wenn Sie Fragen haben, steht Ihnen unser 24/7-Support-Team zur Verfügung!"
+  },
   "Footer": {
-    "copyright": "© 2025 GerKey. Alle Rechte vorbehalten.",
+    "copyright": "© {year} GerKey. Alle Rechte vorbehalten.",
     "poweredBy": "Powered by Mortowa Limited",
-    "tagline": "Professionelle Unterstützung auf Ihrem Weg zu Ihrer Karriere in Deutschland"
+    "tagline": "Professionelle Unterstützung auf Ihrem Weg zu Ihrer Karriere in Deutschland",
+    "description": "Als GerKey bieten wir Ihnen umfassende Unterstützung, um Ihre Karriereziele in Deutschland zu erreichen. Wir stehen Ihnen mit unserem Expertenteam bei Diplomanerkennung, Visa-Verfahren, Sprachausbildung und Jobsuche zur Seite.",
+    "quickLinks": "Schnellzugriff",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt",
+    "pricing": "Preise",
+    "legal": "Rechtlich",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "gdpr": "DSGVO",
+    "support": "Support"
   },
   "Auth": {
     "login": {

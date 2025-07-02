@@ -14,10 +14,14 @@
     "services": "Hizmetler",
     "successStories": "Başarı Hikayeleri",
     "faq": "SSS",
-          "contact": "İletişim",
-      "login": "Giriş Yap",
-      "register": "Kayıt Ol",
-      "freeConsultation": "Ücretsiz Danışmanlık"
+    "contact": "İletişim",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "freeConsultation": "Ücretsiz Danışmanlık",
+    "dashboard": "Anasayfa",
+    "profile": "Profil",
+    "settings": "Ayarlar",
+    "logout": "Çıkış Yap"
   },
   "Header": {
     "login": "Giriş Yap",
@@ -128,10 +132,35 @@
     "send": "Gönder",
     "required": "Tüm alanlar zorunludur"
   },
+  "Onboarding": {
+    "welcomeBadge": "Hoş Geldiniz!",
+    "title": "GerKey'e Hoş Geldiniz!",
+    "subtitle": "Almanya'daki kariyerinize giden yolculukta ilk adımı attınız. Şimdi size özel hazırlanmış hizmetlerimizle hedeflerinize ulaşalım.",
+    "step1Title": "Profil Oluşturun",
+    "step1Description": "Kişisel bilgilerinizi tamamlayarak size özel hizmet paketimizi oluşturalım.",
+    "step2Title": "Uzman Danışmanlık",
+    "step2Description": "Alanında uzman danışmanlarımızla görüşerek yol haritanızı belirleyin.",
+    "step3Title": "Hedeflere Ulaşın",
+    "step3Description": "Belirlediğiniz plan doğrultusunda Almanya'daki kariyerinize başlayın.",
+    "getStarted": "Hemen Başlayalım",
+    "helpText": "Herhangi bir sorunuz olursa 7/24 destek ekibimiz yanınızda!"
+  },
   "Footer": {
-    "copyright": "© 2025 GerKey. Tüm hakları saklıdır.",
+    "copyright": "© {year} GerKey. Tüm hakları saklıdır.",
     "poweredBy": "Powered by Mortowa Limited",
-    "tagline": "Almanya'daki kariyerinize giden yolda profesyonel destek"
+    "tagline": "Almanya'daki kariyerinize giden yolda profesyonel destek",
+    "description": "GerKey olarak, Almanya'da kariyer hedeflerinize ulaşmanız için kapsamlı destek sunuyoruz. Diploma denkliği, vize süreçleri, dil eğitimi ve iş bulma konularında uzman ekibimizle yanınızdayız.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "pricing": "Fiyatlandırma",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "cookies": "Çerez Politikası",
+    "gdpr": "GDPR",
+    "support": "Destek"
   },
   "Auth": {
     "login": {
